@@ -136,3 +136,43 @@ p {
 .box2 h3 {
   color: #ff5959 !important;
 }
+
+.donation_amout input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.donation_amout {
+  text-align: center;
+  padding: 60px 0 0 0;
+}
+.donation_amout input[type="number"] {
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #dadada;
+  color: #b3b3b3;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  width: 100%;
+  padding: 10px 0;
+}
+.donation_amout input[type="number"]:focus {
+  border: none;
+  border-bottom: 1px solid #dadada;
+  outline: none;
+}
+.donation_amout input[type="submit"] {
+  padding: 16px 12px;
+  background: #ff5959;
+  outline: none;
+  border: none;
+  margin-top: 30px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
