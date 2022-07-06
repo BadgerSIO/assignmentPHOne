@@ -22,6 +22,9 @@ a {
 .d-flex {
   display: flex;
 }
+.txt-align-center {
+  text-align: center;
+}
 .justify-content-center {
   justify-content: center;
 }
@@ -38,6 +41,7 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
   position: relative;
 }
 #hero::after {
@@ -56,14 +60,12 @@ a {
   font-size: 65px;
   font-weight: 800;
   text-transform: capitalize;
-  text-align: center;
   z-index: 99;
 }
 .hero-sec p {
   color: #fff;
   font-size: 18px;
   font-weight: 400;
-  text-align: center;
   line-height: 28px;
   z-index: 99;
   padding: 40px 0 30px 0;
@@ -86,10 +88,7 @@ a {
 #donate_today {
   padding: 138px 0;
 }
-.donate h2,
-p {
-  text-align: center;
-}
+
 .donate h2 {
   font-family: "Inter", sans-serif;
   font-size: 45px;
@@ -143,7 +142,6 @@ input[type="number"]::-webkit-outer-spin-button {
   margin: 0;
 }
 .donation_amout {
-  text-align: center;
   padding: 60px 0 0 0;
 }
 .donation_amout input[type="number"] {
@@ -175,4 +173,90 @@ input[type="number"]::-webkit-outer-spin-button {
   color: #fff;
   text-transform: capitalize;
   border-radius: 5px;
+}
+/* donate plan css  */
+#donatePlan {
+  padding-bottom: 100px;
+}
+#donatePlan > .container > h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 45px;
+  font-weight: 800;
+  color: #121212;
+  text-transform: capitalize;
+}
+#donatePlan > .container > p {
+  color: #707070;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  z-index: 99;
+  padding: 20px 0 40px 0;
+}
+.planBox {
+  justify-content: space-between;
+}
+.planBox div {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 60px 25px;
+  border-radius: 5px;
+}
+.planBox div h3 {
+  padding: 30px 0 20px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #121212;
+}
+.planBox div p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #707070;
+}
+
+.planBox div img {
+  width: 58px;
+}
+.pbox1 {
+  background: #eef6f7;
+}
+.pbox2 {
+  background: #ffefef;
+}
+.pbox3 {
+  background: #fff4d6;
+}
+#sub {
+  padding-bottom: 200px;
+}
+#sub h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 45px;
+  font-weight: 800;
+  color: #121212;
+  text-transform: capitalize;
+}
+#sub > .container > p {
+  color: #707070;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  z-index: 99;
+  padding: 20px 0 40px 0;
+}
+.subform {
+  background: #fff4d6;
+  padding: 70px 0;
+  width: 70%;
+}
+.subform input[type="email"] {
+  padding: 16px 15px;
+  width: 40%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px 0 0 5px;
 }
