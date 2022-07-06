@@ -251,12 +251,27 @@ input[type="number"]::-webkit-outer-spin-button {
   background: #fff4d6;
   padding: 70px 0;
   width: 70%;
+  margin: 0 auto;
+}
+.subform form {
+  width: 70%;
 }
 .subform input[type="email"] {
-  padding: 16px 15px;
-  width: 40%;
+  padding: 16px 10px;
+  width: 60%;
   border: none;
   outline: none;
   font-size: 16px;
   border-radius: 5px 0 0 5px;
+}
+.subform button {
+  background: #ff5959;
+  border: none;
+  padding: 16px 0;
+  width: 30%;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  margin-left: -2px;
+  border-radius: 0 5px 5px 0;
 }
