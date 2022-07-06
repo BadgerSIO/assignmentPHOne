@@ -131,7 +131,7 @@ p {
 }
 .box2 {
   background: #ffeeee !important;
-  border: 2px solid #ff5959;
+  border: 2px solid #ff5959 !important;
 }
 .box2 h3 {
   color: #ff5959 !important;
