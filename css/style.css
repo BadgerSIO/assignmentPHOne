@@ -11,3 +11,128 @@ html,
 body {
   font-family: "Poppins", sans-serif;
 }
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1128px;
+  margin: 0 auto;
+  height: 100%;
+}
+.d-flex {
+  display: flex;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.flex-dir-col {
+  flex-direction: column;
+}
+.align-items-center {
+  align-items: center;
+}
+/* hero css start  */
+#hero {
+  height: 85vh;
+  background-image: url("../images/donation9.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+#hero::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 90;
+}
+.hero-sec h1 {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 65px;
+  font-weight: 800;
+  text-transform: capitalize;
+  text-align: center;
+  z-index: 99;
+}
+.hero-sec p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 28px;
+  z-index: 99;
+  padding: 40px 0 30px 0;
+}
+.hero-sec button {
+  background: #ff5959;
+  border: 0;
+  border-radius: 5px;
+  padding: 16px 12px;
+  z-index: 99;
+}
+.hero-sec button a {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: capitalize;
+}
+/* donate_today css start  */
+#donate_today {
+  padding: 138px 0;
+}
+.donate h2,
+p {
+  text-align: center;
+}
+.donate h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 45px;
+  font-weight: 800;
+  color: #121212;
+  text-transform: capitalize;
+}
+.donate p {
+  color: #707070;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  z-index: 99;
+  padding: 20px 0 40px 0;
+}
+.box_container {
+  justify-content: space-evenly;
+}
+.box_container div {
+  width: 15%;
+  padding: 60px 0;
+  background: #fafafa;
+  border: 2px solid #fafafa;
+  border-radius: 5px;
+}
+.box_container div h3 {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  color: #707070;
+}
+.box_container div:hover {
+  background: #ffeeee;
+  border: 2px solid #ff5959;
+}
+.box_container div:hover h3 {
+  color: #ff5959;
+}
+.box2 {
+  background: #ffeeee !important;
+  border: 2px solid #ff5959;
+}
+.box2 h3 {
+  color: #ff5959 !important;
+}
