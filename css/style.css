@@ -86,7 +86,7 @@ a {
 }
 /* donate_today css start  */
 #donate_today {
-  padding: 138px 0;
+  padding: 138px 0 0 0;
 }
 
 .donate h2 {
@@ -176,7 +176,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 /* donate plan css  */
 #donatePlan {
-  padding-bottom: 100px;
+  padding: 138px 0;
 }
 #donatePlan > .container > h2 {
   font-family: "Inter", sans-serif;
@@ -230,7 +230,7 @@ input[type="number"]::-webkit-outer-spin-button {
   background: #fff4d6;
 }
 #sub {
-  padding-bottom: 200px;
+  padding: 138px 0;
 }
 #sub h2 {
   font-family: "Inter", sans-serif;
@@ -274,4 +274,28 @@ input[type="number"]::-webkit-outer-spin-button {
   color: #ffffff;
   margin-left: -2px;
   border-radius: 0 5px 5px 0;
+}
+/* footer css start  */
+footer {
+  background: #0b0d17;
+  padding: 50px 0;
+  text-align: center;
+}
+footer h1 {
+  color: #ff5959;
+  font-family: "Lobster", cursive;
+  padding-bottom: 35px;
+}
+footer h4 {
+  color: #d9dbe1;
+  font-weight: 400;
+  font-size: 14px;
+}
+/* achievement css start  */
+#achi {
+  padding: 60px 0;
+  background: #ff5959;
+}
+.counter div {
+  flex: 1;
 }
