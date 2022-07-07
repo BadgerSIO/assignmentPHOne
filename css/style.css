@@ -19,10 +19,25 @@ a {
   margin: 0 auto;
   height: 100%;
 }
+.titles h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 45px;
+  font-weight: 800;
+  color: #121212;
+  text-transform: capitalize;
+}
+.titles p {
+  color: #707070;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  z-index: 99;
+  padding: 20px 0 40px 0;
+}
 .d-flex {
   display: flex;
 }
-.txt-align-center {
+.tac {
   text-align: center;
 }
 .justify-content-center {
@@ -56,9 +71,10 @@ a {
 }
 .hero-sec h1 {
   color: #fff;
-  font-family: "Inter", sans-serif;
+  font-family: "Lobster", cursive;
+  /* font-family: "Inter", sans-serif; */
   font-size: 65px;
-  font-weight: 800;
+  font-weight: 400;
   text-transform: capitalize;
   z-index: 99;
 }
@@ -87,22 +103,6 @@ a {
 /* donate_today css start  */
 #donate_today {
   padding: 138px 0 0 0;
-}
-
-.donate h2 {
-  font-family: "Inter", sans-serif;
-  font-size: 45px;
-  font-weight: 800;
-  color: #121212;
-  text-transform: capitalize;
-}
-.donate p {
-  color: #707070;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 28px;
-  z-index: 99;
-  padding: 20px 0 40px 0;
 }
 .box_container {
   justify-content: space-evenly;
@@ -178,21 +178,6 @@ input[type="number"]::-webkit-outer-spin-button {
 #donatePlan {
   padding: 138px 0;
 }
-#donatePlan > .container > h2 {
-  font-family: "Inter", sans-serif;
-  font-size: 45px;
-  font-weight: 800;
-  color: #121212;
-  text-transform: capitalize;
-}
-#donatePlan > .container > p {
-  color: #707070;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 28px;
-  z-index: 99;
-  padding: 20px 0 40px 0;
-}
 .planBox {
   justify-content: space-between;
 }
@@ -231,21 +216,6 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 #sub {
   padding: 138px 0;
-}
-#sub h2 {
-  font-family: "Inter", sans-serif;
-  font-size: 45px;
-  font-weight: 800;
-  color: #121212;
-  text-transform: capitalize;
-}
-#sub > .container > p {
-  color: #707070;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 28px;
-  z-index: 99;
-  padding: 20px 0 40px 0;
 }
 .subform {
   background: #fff4d6;
