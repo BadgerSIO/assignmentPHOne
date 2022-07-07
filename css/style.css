@@ -186,7 +186,7 @@ input[type="number"]::-webkit-outer-spin-button {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 60px 25px;
+  padding: 60px 25px 10px 25px;
   border-radius: 5px;
 }
 .planBox div h3 {
