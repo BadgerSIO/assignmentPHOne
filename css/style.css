@@ -214,56 +214,6 @@ input[type="number"]::-webkit-outer-spin-button {
 .pbox3 {
   background: #fff4d6;
 }
-#sub {
-  padding: 138px 0;
-}
-.subform {
-  background: #fff4d6;
-  padding: 70px 0;
-  width: 70%;
-  margin: 0 auto;
-}
-.subform form {
-  width: 70%;
-}
-.subform input[type="email"] {
-  padding: 16px 10px;
-  width: 60%;
-  border: none;
-  outline: none;
-  font-size: 16px;
-  border-radius: 5px 0 0 5px;
-}
-.subform input[type="email"]:focus {
-  border: 1px solid #ff5959;
-}
-.subform button {
-  background: #ff5959;
-  border: none;
-  padding: 16px 0;
-  width: 30%;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  color: #ffffff;
-  margin-left: -2px;
-  border-radius: 0 5px 5px 0;
-}
-/* footer css start  */
-footer {
-  background: #0b0d17;
-  padding: 50px 0;
-  text-align: center;
-}
-footer h1 {
-  color: #ff5959;
-  font-family: "Lobster", cursive;
-  padding-bottom: 35px;
-}
-footer h4 {
-  color: #d9dbe1;
-  font-weight: 400;
-  font-size: 14px;
-}
 /* achievement css start  */
 #achi {
   padding: 60px 0;
@@ -340,4 +290,55 @@ footer h4 {
   opacity: 1;
   transition: 0.5s ease-in-out;
   cursor: pointer;
+}
+/* subscription css start  */
+#sub {
+  padding: 138px 0;
+}
+.subform {
+  background: #fff4d6;
+  padding: 70px 0;
+  width: 70%;
+  margin: 0 auto;
+}
+.subform form {
+  width: 70%;
+}
+.subform input[type="email"] {
+  padding: 16px 10px;
+  width: 60%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px 0 0 5px;
+}
+.subform input[type="email"]:focus {
+  border: 1px solid #ff5959;
+}
+.subform button {
+  background: #ff5959;
+  border: none;
+  padding: 16px 0;
+  width: 30%;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  margin-left: -2px;
+  border-radius: 0 5px 5px 0;
+}
+/* footer css start  */
+footer {
+  background: #0b0d17;
+  padding: 50px 0;
+  text-align: center;
+}
+footer h1 {
+  color: #ff5959;
+  font-family: "Lobster", cursive;
+  padding-bottom: 35px;
+}
+footer h4 {
+  color: #d9dbe1;
+  font-weight: 400;
+  font-size: 14px;
 }
