@@ -51,7 +51,7 @@ a {
 }
 /* hero css start  */
 #hero {
-  height: 85vh;
+  height: 100vh;
   background-image: url("../images/donation9.webp");
   background-size: cover;
   background-repeat: no-repeat;
@@ -72,9 +72,8 @@ a {
 .hero-sec h1 {
   color: #fff;
   font-family: "Lobster", cursive;
-  /* font-family: "Inter", sans-serif; */
   font-size: 65px;
-  font-weight: 400;
+  font-weight: 300;
   text-transform: capitalize;
   z-index: 99;
 }
